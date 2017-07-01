@@ -2,7 +2,6 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	
+	var datoId = document.getElementById("elNombre").value;
+	alert(datoId);
 }
-
-

@@ -1,6 +1,10 @@
 function Mostrar()
 {
-//tomo la edad  
+  var edadRecibida;
+  edadRecibida = parseInt(document.getElementById("edad").value);
+  if(edadRecibida >= 18){alert("Es mayor de edad");
+  }
+//tomo la edad
 
 
 
